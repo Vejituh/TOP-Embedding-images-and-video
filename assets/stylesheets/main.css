@@ -42,3 +42,57 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*** Icons ***/
+.icon {
+  color: #ffffff;
+  line-height: 0;
+  cursor: pointer;
+}
+.youtube-icon {
+  color: #ff0000;
+}
+ul > li:first-child {
+  padding-left: 8px;
+}
+ul > li:last-child {
+  margin-right: 8px;
+}
+ul:first-child {
+  width: 25%;
+}
+ul:last-child {
+  width: 45%;
+}
+.youtube-account {
+  border: 2px solid #ec407a;
+  background-color: #ec407a;
+  border-radius: 15px;
+}
+
+/*** Nav ***/
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 48px;
+  width: 100%;
+  background-color: #202020;
+}
+.nav ul {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.search-box {
+  display: none;
+}
+ul > li:nth-child(5) {
+  display:none;
+}
+
+/*** Body ***/
+body {
+  background-color: #181818;
+}
