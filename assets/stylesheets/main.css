@@ -64,22 +64,25 @@ p {
 .youtube-icon {
   color: #ff0000;
 }
-ul > li:first-child {
+nav ul > li:first-child {
   padding-left: 8px;
 }
-ul > li:last-child {
+nav ul > li:last-child {
   margin-right: 8px;
 }
-ul:first-child {
+nav ul:first-child {
   width: 25%;
 }
-ul:last-child {
+nav ul:last-child {
   width: 45%;
 }
 .youtube-account {
   border: 2px solid #ec407a;
   background-color: #ec407a;
   border-radius: 15px;
+}
+.flipped {
+  transform: scaleX(-1);
 }
 
 /*** Nav ***/
@@ -100,7 +103,7 @@ ul:last-child {
 .search-box {
   display: none;
 }
-ul > li:nth-child(5) {
+nav ul > li:nth-child(5) {
   display:none;
 }
 
@@ -135,4 +138,17 @@ body {
 }
 .youtube-title p {
   margin: 5px 0;
+}
+
+/*** Metadata actions ***/
+.metadata-actions{
+  display: flex;
+  padding:2px 15px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+button {
+  border: none;
+  cursor: pointer;
+  background: #181818;
 }
