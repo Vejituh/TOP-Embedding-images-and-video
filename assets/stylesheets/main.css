@@ -199,6 +199,7 @@ button h4 {
 .youtube-recommended {
   display: flex;
   flex-direction: column;
+  padding-bottom: 12px;
 }
 .youtube-recommended-container {
   display: flex;
@@ -230,4 +231,12 @@ button h4 {
   font-weight: normal;
   font-size: 0.9rem;
   line-height: 1.25;
+}
+
+/*** Comments section ***/
+.youtube-comments {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-top: 1px solid hsla(0,0%,53.3%,.4);
 }
