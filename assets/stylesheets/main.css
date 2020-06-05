@@ -240,3 +240,23 @@ button h4 {
   padding: 12px;
   border-top: 1px solid hsla(0,0%,53.3%,.4);
 }
+
+/*** Tablet view ***/
+@media only screen and (min-width: 600px) {
+  .youtube-recommended {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .youtube-recommended-container {
+    flex-direction: column;
+    width: 33%;
+  }
+  .img-container {
+    height: auto;
+    width: 100%;
+    padding-bottom: 56.25%;
+  }
+  .thumbnail-content h4 {
+    margin: auto;
+  }
+}
