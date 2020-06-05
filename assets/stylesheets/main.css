@@ -194,3 +194,40 @@ button h4 {
   text-transform: uppercase;
   color: #ff4a33;
 }
+
+/*** Recommended section ***/
+.youtube-recommended {
+  display: flex;
+  flex-direction: column;
+}
+.youtube-recommended-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 12px;
+  margin-top: 12px;
+}
+.img-container {
+  position: relative;
+  min-width: 160px;
+  height: 90px;
+  overflow: hidden;
+}
+.youtube-recommended div img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  min-height: 100%;
+  width: 100%;
+  margin: auto;
+}
+.thumbnail-content {
+  margin-left: 5px;
+}
+.thumbnail-content h4 {
+  font-weight: normal;
+  font-size: 0.9rem;
+  line-height: 1.25;
+}
