@@ -260,3 +260,38 @@ button h4 {
     margin: auto;
   }
 }
+
+/*** Desktop view ***/
+@media only screen and (min-width: 768px) {
+  nav ul:first-child {
+    width: 10%;
+  }
+  nav ul:last-child {
+    width: 20%;
+  }
+  nav ul > li:nth-child(5) {
+    display:inline;
+  }
+  .metadata-actions button li {
+    font-size: 2rem;
+  }
+  .thumbnail-content {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (min-width: 168px) {
+  nav ul:first-child {
+    width: 5%;
+  }
+  nav ul:last-child {
+    width: 10%;
+  }
+  .metadata-actions button li {
+    font-size: 3rem;
+  }
+  .youtube-recommended-container {
+    flex-direction: column;
+    width: 33%;
+  }
+}
