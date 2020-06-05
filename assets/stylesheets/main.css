@@ -152,3 +152,45 @@ button {
   cursor: pointer;
   background: #181818;
 }
+
+/*** Metadata Subscribe ***/
+.youtube-subscribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid hsla(0,0%,53.3%,.4);
+  border-bottom: 1px solid hsla(0,0%,53.3%,.4);
+  margin: 5px 0;
+  padding: 13px 12px;
+  line-height: 1.em;
+}
+.youtube-metadata-account {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.youtube-metadata-account li {
+  font-size: 28px;
+  margin-right: 6px;
+}
+.youtube-metadata-account a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+.youtube-metadata-account div h3{
+  color: #ffffff;
+  padding-bottom: 5px;
+}
+.youtube-subscribe button {
+  display: flex;
+  justify-content: flex-end;
+  height: 16px;
+}
+button h4 {
+  font-weight: 500;
+  cursor: pointer;
+  margin-left: 8px;
+  text-transform: uppercase;
+  color: #ff4a33;
+}
